@@ -34,11 +34,11 @@ int my_showstr(char *str);
 int my_showmem(char *str, int size);
 char *my_strcat(char *dest, char *src);
 char *my_strncat(char *dest, char *src, int nb);
-char *concat_params(int argc, char**argv);
+char *concat_params(int argc, char **argv);
 int my_compute_square_root(int nb);
 int my_compute_factorial_it(int nb);
 int my_show_word_array(char * const *tab);
 int my_compute_factorial_rec(int nb);
-void my_sort_int_array(int *tab,int *size);
+void my_sort_int_array(int *tab, int *size);
 char *my_strdup(char const * src);
 
